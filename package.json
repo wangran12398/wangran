@@ -1,0 +1,64 @@
+{
+  "name": "star",
+  "author": "hustcer",
+  "public": true,
+  "version": "0.5.0",
+  "license": "MIT",
+  "homepage": "http://uzfin.com",
+  "description": "A STock Analysis and Research tool for terminal users.",
+  "main": "star",
+  "bin": {
+    "star": "./star.js"
+  },
+  "contributors": [
+    {
+      "name": "Justin Ma",
+      "email": "hustcer(at)gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "star.js -h"
+  },
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hustcer/star"
+  },
+  "bugs": {
+    "url": "https://github.com/hustcer/star/issues"
+  },
+  "keywords": [
+    "nodejs",
+    "stocks",
+    "insider trading"
+  ],
+  "dependencies": {
+    "async": "^2.6.0",
+    "blessed": "~0.1.80",
+    "blessed-contrib": "^4.7.5",
+    "bluebird": "^3.5.1",
+    "cheerio": "~1.0.0-rc.2",
+    "colors": "~1.1.0",
+    "columnify": "^1.5.4",
+    "commander": "~2.14.1",
+    "iconv": "^2.2.3",
+    "js-yaml": "^3.10.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "numbro": "^1.11.1",
+    "request": "^2.83.0",
+    "strman": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sloc2": "^1.0.1",
+    "imagemin-pngquant": "^5.0.0"
+  }
+}
